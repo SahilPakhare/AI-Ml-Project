@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 97vh;
+    width: 98vw;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url("amadej-tauses-xWOTojs1eg4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    border: 2px solid red;
+    color: rgb(241, 231, 231);
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    margin: 0;   */
+}
+
+h2 {
+    border: 2px solid red;
+    color: rgb(241, 231, 231);
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: large;
+    padding-top: 10px;
+    line-height: 1.5;
+    font: bold;
+}

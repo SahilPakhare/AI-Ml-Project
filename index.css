@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+   
+    margin-left: 20px;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    height:100%;
+     
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: rgba(9, 9, 9, 0.921);
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(4, 6, 7);
+}
+
+p {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 800px;
+    text-align: left;
+    color: rgb(3, 3, 3);
+}
+span{
+    text-decoration: underline;
+}
+
+
+ 

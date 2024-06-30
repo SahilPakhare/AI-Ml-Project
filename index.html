@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+
+    <h1>Welcome to <span id="h2o-hero">H2O Hero!</span></h1>
+    <h2>About: H2O Hero!</h2>
+    <p>Hello t I'm H2O Hero, your friendly water conservation companion! I'm here to help you save water,
+        reduce your bills, and make a positive impact on the environment.
+
+        As your trusted advisor, I'll provide you with personalized tips, expert advice, and fun facts to
+        make water conservation easy and accessible. Whether you're a homeowner, renter, student, or
+        business owner, I've got you covered!
+
+        Want to know how to fix a leaky faucet or optimize your water usage? I'm here to guide you through
+        it! Need help with a water-themed project or just want to learn more about water conservation? I'm
+        your go-to resource!
+
+        So, what brings you here today? Do you have a specific question or topic in mind? Feel free to ask
+        me anything, and I'll do my best to assist you. Let's work together to make a splash in water
+        conservation!</p>
+
+
+    <p>Feel free to ask me about Save Water </p>
+
+
+
+
+
+
+   
+
+
+
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "07133824-b01e-4a66-a549-b3c6573ec0aa", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "c3c944e8-b676-49b0-a4a6-31f57d100571", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/2e544bb014.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
